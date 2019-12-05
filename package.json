@@ -1,11 +1,15 @@
 {
-  "name": "exclude-unused-files",
+  "name": "mv-exclude-unused-files",
   "version": "1.0.0",
-  "main": "RS_UnusedOption.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "bin": {
+    "mv-builder": "./index.js"
+  },  
   "author": "biud436",
+  "main": "./index",
   "license": "MIT",
   "dependencies": {
     "crc": "^3.8.0"

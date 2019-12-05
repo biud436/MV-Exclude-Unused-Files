@@ -4,11 +4,12 @@
  * This script allows you to perform to copy a source directory to the destination folder and exclude unused resources.
  * 
  * Try to do a below command in your command prompt.
- * node RS_UnusedOption.js "src" "dst"
+ * 
+ * npm start "src" "dst"
  * 
  * For instance,
  * 
- * node RS_UnusedOption.js "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" "C:/Users/U/Desktop/Test"
+ * npm start "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" "C:/Users/U/Desktop/Test"
  * 
  * =============================================================
  * Change Log
@@ -26,23 +27,19 @@ const { crc32 } = require('crc');
 class LazyInitialization extends EventEmiiter {}
 
 const processArgs = process.argv.slice(2);
-// const testdir = processArgs[0] || path.join(process.env["USERPROFILE"], "Desktop");
-// const testdir = `C:/Users/U/Desktop/Exam/201907/www`;
-const testdir = `E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample`;
 
-// node RS_UnusedOption.js "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" "C:/Users/U/Desktop/Test"
-let sourceDir = processArgs[0] || testdir;
-let targetDir = processArgs[1] || path.join(process.env["USERPROFILE"], "Desktop", "Test");;
+let sourceDir = processArgs[0];
+let targetDir = processArgs[1];
 
 console.log(`sourceDir => ${sourceDir}`);
 console.log(`targetDir => ${targetDir}`);
 
 let options = {
-    audioFileFormat: ".m4a",
+    audioFileFormat: ".ogg",
     remainTree: true,
 };
 
-process.chdir(testdir);
+process.chdir(sourceDir);
 
 /**
  * @class ImageChunk
@@ -1159,7 +1156,6 @@ class Database {
 }
 
 //#region Entry Point
-
 const config = new PluginConfiguration((noteParams) => {
     
     // Load the Database
@@ -1168,7 +1164,7 @@ const config = new PluginConfiguration((noteParams) => {
 
     // Collecting the resources!
     Resources.unique()
-             .make();    
+            .make();    
     
     const rootPath = process.cwd();
     const targetPath = path.join(targetDir);
