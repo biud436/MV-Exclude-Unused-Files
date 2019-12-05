@@ -3,17 +3,32 @@
   "version": "1.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./lib/index.js"
   },
   "bin": {
-    "mv-builder": "./index.js"
+    "mv-builder": "./bin/mv-exclude-unused-files.js"
   },
-  "author": "biud436",
-  "main": "./index",
+  "author": {
+    "name": "biud436",
+    "url": "biud436.blog.me",
+    "email": "biud436@gmail.com"
+  },
+  "main": "./lib/index.js",
   "license": "MIT",
   "dependencies": {
     "crc": "^3.8.0"
   },
+  "engines": {
+    "node": ">=10.4.1"
+  },
+  "keywords": [
+    "mv-exclude-unused-files"
+  ],
+  "homepage": "https://github.com/biud436/MV-Exclude-Unused-Files",
+  "bugs": {
+    "url": "https://github.com/biud436/MV-Exclude-Unused-Files/issues",
+    "email": "biud436@gmail.com"
+  },
   "devDependencies": {},
-  "description": ""
+  "description": "This script allows you to perform to copy a source directory to the destination folder and exclude unused resources."
 }
