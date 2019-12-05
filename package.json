@@ -1,12 +1,12 @@
 {
   "name": "mv-exclude-unused-files",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./lib/index.js"
   },
   "bin": {
-    "mv-builder": "./bin/mv-exclude-unused-files.js"
+    "mv-resource-cleaner": "./bin/mv-exclude-unused-files.js"
   },
   "author": {
     "name": "biud436",
