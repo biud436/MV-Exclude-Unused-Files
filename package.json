@@ -7,7 +7,7 @@
   },
   "bin": {
     "mv-builder": "./index.js"
-  },  
+  },
   "author": "biud436",
   "main": "./index",
   "license": "MIT",
