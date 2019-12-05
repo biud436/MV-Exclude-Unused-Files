@@ -5,6 +5,8 @@
  * 
  * Try to do a below command in your command prompt.
  * 
+ * git clone https://github.com/biud436/MV-Exclude-Unused-Files.git
+ * npm install
  * npm start "src" "dst"
  * 
  * For instance,
