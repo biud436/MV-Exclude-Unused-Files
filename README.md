@@ -10,13 +10,13 @@ To install mv-resource-cleaner, you should run the install command using Node Pa
 Starting mv-resource-cleaner is easy. Open the command line and then run as belows.
 
 ```shell
-mv-resource-cleaner sourceDir="src" targetDir="dst" [option]
+mv-resource-cleaner "src" "dst" [option]
 ```
 
 For instance,
 
 ```shell
-mv-resource-cleaner sourceDir="E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" targetDir="C:/Users/U/Desktop/Test" --audioFileFormat=ogg
+mv-resource-cleaner "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" "C:/Users/U/Desktop/Test"
 ```
 
 # Option
