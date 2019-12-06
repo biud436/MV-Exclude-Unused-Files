@@ -1,23 +1,26 @@
 
 # Install
+To install mv-resource-cleaner, you should run the install command using Node Package Manager, as follows.
 
 ```shell
  npm install -g mv-exclude-unused-files
 ```
 
 # Usage
+Starting mv-resource-cleaner is easy. Open the command line and then run as belows.
 
 ```shell
-mv-resource-cleaner "src" "dst" [option]
+mv-resource-cleaner --sourceDir="src" --targetDir="dst" [option]
 ```
 
 For instance,
 
 ```shell
-mv-resource-cleaner "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" "C:/Users/U/Desktop/Test"
+mv-resource-cleaner --sourceDir="E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaPlugins_New/samples/Gacha Sample" --targetDir="C:/Users/U/Desktop/Test" --audioFileFormat=ogg
 ```
 
 # Option
+There is the option is here. 
 
 ```
 --audioFileFormat=ogg
@@ -25,3 +28,5 @@ mv-resource-cleaner "E:/SteamLibrary/steamapps/common/RPG Maker MV/dlc/KadokawaP
 --remainTree=true
 --remainTree=false
 ```
+
+The option called ```--remainTree=false``` copies image and audio folders only so it is copied to fast.
