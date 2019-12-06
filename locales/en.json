@@ -1,0 +1,12 @@
+{
+    "NUM_OF_PLUGINS": "The number of Plugins : {0}",
+    "COMPLETED_TO_PARSE" : "Completed to parse plugin comments of {0}",
+    "CONCAT_NOTE_PARAMS" : "Concating the noteParams : {0}",
+    "COMPLETED_PARSING_ALL_PLUGINS" : "Completed parsing all plugin comments!",
+    "GET_STATUS_1" : "Copy file {0} to {1}",
+    "GET_STATUS_2" : "it's already existed a file to {0}",
+    "GET_STATUS_3" : "If the file is changed.. Copy file {0} to {1}",
+    "COPY_FILE": "Copy file {0} to {1}",
+    "DONE": "Done!",
+    "CANNOT_PARSE_ERROR" : "Cannot parse {0} file"
+}

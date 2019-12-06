@@ -1,0 +1,12 @@
+{
+    "NUM_OF_PLUGINS": "총 {0}개의 플러그인이 감지되었습니다.",
+    "COMPLETED_TO_PARSE" : "{0} : 플러그인 매개변수 파싱을 완료하였습니다.",
+    "CONCAT_NOTE_PARAMS" : "노트 매개변수 {0}를 파싱하였습니다.",
+    "COMPLETED_PARSING_ALL_PLUGINS" : "Completed parsing all plugin comments!",
+    "GET_STATUS_1" : "파일을 {0} 에서 {1} 으로 복사했습니다",
+    "GET_STATUS_2" : "{0} 파일이 이미 존재하므로 복사 작업을 생략합니다",
+    "GET_STATUS_3" : "파일이 변경되었습니다. 파일을 {0} 에서 {1} 으로 새로 복사했습니다",
+    "COPY_FILE": "파일을 {0} 에서 {1} 으로 복사했습니다",
+    "DONE": "미사용 리소스 제거 작업이 완료되었습니다.",
+    "CANNOT_PARSE_ERROR" : "파일 {0}을(를) 파싱할 수 없습니다."
+}

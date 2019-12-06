@@ -1,6 +1,6 @@
 {
   "name": "mv-exclude-unused-files",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./lib/index.js"
@@ -16,7 +16,8 @@
   "main": "./lib/index.js",
   "license": "MIT",
   "dependencies": {
-    "crc": "^3.8.0"
+    "crc": "^3.8.0",
+    "os-locale": "^4.0.0"
   },
   "engines": {
     "node": ">=10.4.1"

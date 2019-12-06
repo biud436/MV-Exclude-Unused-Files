@@ -1,3 +1,4 @@
 #!/usr/bin/env node
 
-require("../lib/index")(process.argv);
+const app = require("../lib/index");
+app.run(process.argv);
