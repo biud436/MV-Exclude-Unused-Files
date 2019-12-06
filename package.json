@@ -1,9 +1,9 @@
 {
   "name": "mv-exclude-unused-files",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./lib/index.js"
+    "start": "node ./bin/mv-exclude-unused-files.js"
   },
   "bin": {
     "mv-resource-cleaner": "./bin/mv-exclude-unused-files.js"
