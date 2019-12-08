@@ -8,5 +8,7 @@
     "GET_STATUS_3" : "If the file is changed.. Copy file {0} to {1}",
     "COPY_FILE": "Copy file {0} to {1}",
     "DONE": "Done!",
+    "DETECTED_NEW_FILE" : "Added new file named {0}",
+    "DETECTED_DELETED_FILE" : "Deleted a file named {0}",
     "CANNOT_PARSE_ERROR" : "Cannot parse {0} file"
 }

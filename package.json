@@ -1,6 +1,6 @@
 {
   "name": "mv-exclude-unused-files",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/mv-exclude-unused-files.js"
