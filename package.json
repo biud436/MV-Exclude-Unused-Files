@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "crc": "^3.8.0",
-    "os-locale": "^4.0.0"
+    "os-locale": "^6.0.2"
   },
   "engines": {
     "node": ">=10.4.1"
